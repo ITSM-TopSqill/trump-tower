@@ -3,13 +3,13 @@ import React from "react";
 
 const OfferBanner: React.FC = () => {
     return (
-        <div className="relative overflow-hidden bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 text-white text-center p-4 md:p-6 shadow-xl animate-[float_4s_ease-in-out_infinite] mt-4 min-h-[350px] md:h-[400px] flex flex-col items-center justify-center">
+        <div className="relative overflow-hidden bg-gradient-to-r from-primary via-primary-glow to-accent text-primary-foreground text-center p-4 md:p-6 shadow-luxury animate-[float_4s_ease-in-out_infinite] mt-4 min-h-[350px] md:h-[400px] flex flex-col items-center justify-center">
             {/* Title */}
-            <h1 className="text-2xl md:text-4xl font-extrabold mb-2 bg-gradient-to-r from-[#FFD700] via-[#FFCC33] to-[#FFD700] bg-clip-text text-transparent drop-shadow-lg gold-blink relative">
+            <h1 className="text-2xl md:text-4xl font-extrabold mb-2 bg-gradient-to-r from-accent-glow via-accent to-accent-glow bg-clip-text text-transparent drop-shadow-lg gold-blink relative">
                 ✨ Special Offer ✨
             </h1>
             <h2 className="text-lg md:text-3xl font-extrabold mb-1 drop-shadow-md mt-2 px-2">
-                🏢 Godrej Majesty – Special PPM Scheme
+                🏢 Trump Tower – Special PPM Scheme
             </h2>
 
             {/* Validity */}

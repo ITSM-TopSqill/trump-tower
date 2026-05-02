@@ -110,7 +110,7 @@ const BrochureSection = () => {
                 Download Project Brochure
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Get complete information about Godrej Majesty including floor plans,
+                Get complete information about Trump Tower including floor plans,
                 amenities, pricing, and location advantages. Our comprehensive brochure
                 contains everything you need to make an informed decision.
               </p>

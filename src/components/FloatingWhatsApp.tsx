@@ -6,7 +6,7 @@ const FloatingWhatsApp = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const whatsappNumber = "+917496016040"; // Replace with actual WhatsApp number
-  const defaultMessage = "Hi! I'm interested in Godrej Majesty. Please share more details.";
+  const defaultMessage = "Hi! I'm interested in Trump Tower. Please share more details.";
 
   const openWhatsApp = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
@@ -71,7 +71,7 @@ const FloatingWhatsApp = () => {
         <div className="bg-primary text-primary-foreground p-3 shadow-luxury">
           <div className="flex items-center justify-between">
             <div className="flex-1 mr-3">
-              <p className="font-semibold text-sm leading-tight">Interested in Godrej Majesty?</p>
+              <p className="font-semibold text-sm leading-tight">Interested in Trump Tower?</p>
               <p className="text-xs opacity-90">Get instant assistance</p>
             </div>
             <div className="flex space-x-2 flex-shrink-0">

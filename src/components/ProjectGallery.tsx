@@ -202,7 +202,7 @@ const ProjectGallery = () => {
             Video Gallery
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Take a virtual tour through Godrej Majesty and experience the luxury, 
+            Take a virtual tour through Trump Tower and experience the luxury, 
             comfort, and lifestyle that awaits you.
           </p>
         </div>

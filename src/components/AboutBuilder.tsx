@@ -13,7 +13,7 @@ const AboutBuilder = () => {
       icon: Users,
       number: "2.5 Lakh+",
       title: "Happy Families",
-      subtitle: "Living in Godrej Homes"
+      subtitle: "Living in Trump residences"
     },
     {
       icon: Calendar,
@@ -54,7 +54,7 @@ const AboutBuilder = () => {
 
   const keyHighlights = [
     "One of India's most trusted real estate developers",
-    "Part of the prestigious Godrej Group conglomerate",
+    "Part of the prestigious Trump Organization conglomerate",
     "Strong focus on sustainable and green construction",
     "Commitment to timely delivery and quality construction",
     "Innovation in design and customer-centric approach",
@@ -66,11 +66,11 @@ const AboutBuilder = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            About Godrej Properties
+            About Trump Organization
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             A legacy of trust, innovation, and excellence in real estate development. 
-            Godrej Properties is committed to creating sustainable and contemporary spaces 
+            Trump Organization is committed to creating sustainable and contemporary spaces 
             that enhance the quality of life for our customers.
           </p>
         </div>
@@ -82,7 +82,7 @@ const AboutBuilder = () => {
                 Our Legacy
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Godrej Properties Limited is the real estate arm of the Godrej Group, one of 
+                The Trump Organization is the real estate arm of the Trump Organization, one of 
                 India's most trusted business conglomerates. With over 125 years of excellence 
                 and a strong legacy of trust, we have been transforming the Indian real estate 
                 landscape with our innovative projects and customer-centric approach.
@@ -107,12 +107,12 @@ const AboutBuilder = () => {
                 Our Commitment
               </h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                "At Godrej Properties, we believe in creating not just homes, but communities 
+                "At Trump Organization, we believe in creating not just homes, but communities 
                 that foster happiness, well-being, and sustainability. Our commitment to quality, 
                 innovation, and customer satisfaction drives everything we do."
               </p>
               <div className="mt-4 text-right">
-                <p className="text-sm font-medium text-primary">- Godrej Properties Leadership</p>
+                <p className="text-sm font-medium text-primary">- Trump Organization Leadership</p>
               </div>
             </div>
           </div>
@@ -165,15 +165,15 @@ const AboutBuilder = () => {
         
         <div className="bg-gradient-luxury p-8 rounded-2xl text-center text-primary-foreground">
           <h3 className="text-2xl font-bold mb-4">
-            Why Choose Godrej Properties?
+            Why Choose Trump Organization?
           </h3>
           <p className="text-lg opacity-90 mb-6 max-w-3xl mx-auto">
-            Join the family of 2.5 lakh+ satisfied customers who have made Godrej Properties 
+            Join the family of 2.5 lakh+ satisfied customers who have made Trump Organization 
             their trusted partner in finding their dream homes. Experience the difference of 
             working with India's most trusted real estate developer.
           </p>
           <Button variant="accent" size="lg">
-            Learn More About Godrej Group
+            Learn More About Trump Organization
           </Button>
         </div>
       </div>

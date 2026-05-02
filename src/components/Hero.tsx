@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Godrej Majesty Building"
+          alt="Trump Tower Building"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-transparent"></div>
@@ -24,14 +24,11 @@ const Hero = () => {
           {/* Left Content */}
           <div className="text-primary-foreground animate-fade-up order-2 lg:order-1 text-center">
             <h1 className="leading-tight font-extrabold tracking-tight">
-              {/* GODREJ */}
               <span className="block text-3xl md:text-4xl lg:text-6xl animate-fade-in">
-                GODREJ
+                TRUMP
               </span>
-
-              {/* MAJESTY */}
               <span className="block text-4xl md:text-5xl lg:text-7xl text-accent animate-float">
-                MAJESTY
+                TOWER
               </span>
             </h1>
 
@@ -42,7 +39,7 @@ const Hero = () => {
 
             <p className="text-base md:text-lg mb-6 md:mb-8 opacity-80 leading-relaxed">
               Experience premium living at Sector 12 Greater Noida West with world-class amenities,
-              strategic location, and architectural excellence by Godrej Properties.
+              strategic location, and architectural excellence by the Trump Organization.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 mb-6 md:mb-12 text-center">
@@ -70,7 +67,7 @@ const Hero = () => {
               </span>
               <img
                 src={logo}
-                alt="Godrej Logo"
+                alt="Trump Tower Logo"
                 className="w-32 h-12 sm:w-40 sm:h-16 md:w-48 md:h-20 lg:w-64 lg:h-28 object-contain mt-1"
               />
             </div>

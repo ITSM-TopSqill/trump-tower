@@ -50,7 +50,7 @@ const ContactInfo = () => {
   }
 
   const handleWhatsAppClick = () => {
-    const message = "Hi! I'm interested in Godrej Majesty project. Please share more details.";
+    const message = "Hi! I'm interested in Trump Tower project. Please share more details.";
     const whatsappUrl = `https://wa.me/${settings.receiver_whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };

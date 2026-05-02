@@ -56,7 +56,7 @@ const LocationConnectivity = () => {
                 Location & Connectivity
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Strategically located in Sector 12, Greater Noida West, Godrej Majesty offers
+                Strategically located in Sector 12, Greater Noida West, Trump Tower offers
                 unparalleled connectivity to Delhi NCR and all major landmarks. Experience the
                 convenience of urban living with easy access to everything you need.
               </p>

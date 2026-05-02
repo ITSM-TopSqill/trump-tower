@@ -96,7 +96,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl font-bold mb-4">
-                Ready to Make Godrej Majesty Your Home?
+                Ready to Make Trump Tower Your Home?
               </h2>
               <p className="text-lg opacity-90 leading-relaxed">
                 Contact our expert team today to schedule a site visit or get more information

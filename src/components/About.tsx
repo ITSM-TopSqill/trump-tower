@@ -22,10 +22,10 @@ const About = () => {
           <div className="order-1 lg:order-2 space-y-6">
             <div>
               <h2 className="text-4xl font-bold text-foreground mb-4">
-                About Godrej Majesty
+                About Trump Tower
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Godrej Majesty represents the pinnacle of luxury living in Greater Noida West.
+                Trump Tower represents the pinnacle of luxury living in Greater Noida West.
                 Strategically located in Sector 12, this premium residential project offers
                 world-class amenities, contemporary architecture, and unparalleled connectivity.
               </p>

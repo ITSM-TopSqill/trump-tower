@@ -40,7 +40,7 @@ const ProjectOverview = () => {
                 Project Overview
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Godrej Majesty stands as a testament to luxury living in Greater Noida West.
+                Trump Tower stands as a testament to luxury living in Greater Noida West.
                 Strategically located in Sector 12, this premium residential project offers
                 an unprecedented lifestyle experience with meticulously designed 3 & 4 BHK
                 apartments that redefine modern living standards.
