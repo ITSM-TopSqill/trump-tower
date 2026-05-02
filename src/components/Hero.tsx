@@ -24,14 +24,11 @@ const Hero = () => {
           {/* Left Content */}
           <div className="text-primary-foreground animate-fade-up order-2 lg:order-1 text-center">
             <h1 className="leading-tight font-extrabold tracking-tight">
-              {/* GODREJ */}
               <span className="block text-3xl md:text-4xl lg:text-6xl animate-fade-in">
-                GODREJ
+                TRUMP
               </span>
-
-              {/* MAJESTY */}
               <span className="block text-4xl md:text-5xl lg:text-7xl text-accent animate-float">
-                MAJESTY
+                TOWER
               </span>
             </h1>
 
@@ -42,7 +39,7 @@ const Hero = () => {
 
             <p className="text-base md:text-lg mb-6 md:mb-8 opacity-80 leading-relaxed">
               Experience premium living at Sector 12 Greater Noida West with world-class amenities,
-              strategic location, and architectural excellence by Trump Organization.
+              strategic location, and architectural excellence by the Trump Organization.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 mb-6 md:mb-12 text-center">

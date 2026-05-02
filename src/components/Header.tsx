@@ -41,9 +41,10 @@ const Header = () => {
               <img src={logo} alt="Trump Tower Logo" className="w-10 h-10 object-contain" />
             </div>
             <div>
-              <h1 className="text-xl font-extrabold bg-clip-text text-yellow-600 tracking-wide">
+              <h1 className="text-xl font-extrabold text-primary tracking-wide">
                 Trump Tower
-              </h1>            </div>
+              </h1>
+            </div>
           </div>
 
 
