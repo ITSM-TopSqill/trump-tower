@@ -9,7 +9,7 @@ const OfferBanner: React.FC = () => {
                 ✨ Special Offer ✨
             </h1>
             <h2 className="text-lg md:text-3xl font-extrabold mb-1 drop-shadow-md mt-2 px-2">
-                🏢 Godrej Majesty – Special PPM Scheme
+                🏢 Trump Tower – Special PPM Scheme
             </h2>
 
             {/* Validity */}

@@ -19,7 +19,7 @@ const Gallery = () => {
             Project Gallery
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Take a virtual tour of Godrej Majesty and explore the luxury that awaits
+            Take a virtual tour of Trump Tower and explore the luxury that awaits
           </p>
         </div>
         
