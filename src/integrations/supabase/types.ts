@@ -7,10 +7,10 @@ export type Json =
   | Json[]
 
 export type Database = {
-  // Allows to automatically instanciate createClient with right options
+  // Allows to automatically instantiate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
-    PostgrestVersion: "12.2.3 (519615d)"
+    PostgrestVersion: "14.5"
   }
   public: {
     Tables: {
@@ -43,140 +43,6 @@ export type Database = {
           id?: string
           image_path?: string
           is_primary?: boolean | null
-          updated_at?: string
-        }
-        Relationships: []
-      }
-      blog_categories: {
-        Row: {
-          color: string | null
-          created_at: string
-          description: string | null
-          id: string
-          name: string
-          post_count: number | null
-          slug: string
-          updated_at: string
-        }
-        Insert: {
-          color?: string | null
-          created_at?: string
-          description?: string | null
-          id?: string
-          name: string
-          post_count?: number | null
-          slug: string
-          updated_at?: string
-        }
-        Update: {
-          color?: string | null
-          created_at?: string
-          description?: string | null
-          id?: string
-          name?: string
-          post_count?: number | null
-          slug?: string
-          updated_at?: string
-        }
-        Relationships: []
-      }
-      blog_comments: {
-        Row: {
-          author_email: string
-          author_name: string
-          blog_post_id: string
-          content: string
-          created_at: string
-          id: string
-          is_approved: boolean | null
-          updated_at: string
-        }
-        Insert: {
-          author_email: string
-          author_name: string
-          blog_post_id: string
-          content: string
-          created_at?: string
-          id?: string
-          is_approved?: boolean | null
-          updated_at?: string
-        }
-        Update: {
-          author_email?: string
-          author_name?: string
-          blog_post_id?: string
-          content?: string
-          created_at?: string
-          id?: string
-          is_approved?: boolean | null
-          updated_at?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "blog_comments_blog_post_id_fkey"
-            columns: ["blog_post_id"]
-            isOneToOne: false
-            referencedRelation: "blog_posts"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      blog_posts: {
-        Row: {
-          author_avatar: string | null
-          author_bio: string | null
-          author_name: string
-          author_title: string | null
-          category: string
-          content: string
-          created_at: string
-          excerpt: string | null
-          featured_image: string | null
-          id: string
-          is_featured: boolean | null
-          is_published: boolean | null
-          published_at: string | null
-          slug: string
-          tags: string[] | null
-          title: string
-          updated_at: string
-        }
-        Insert: {
-          author_avatar?: string | null
-          author_bio?: string | null
-          author_name: string
-          author_title?: string | null
-          category?: string
-          content: string
-          created_at?: string
-          excerpt?: string | null
-          featured_image?: string | null
-          id?: string
-          is_featured?: boolean | null
-          is_published?: boolean | null
-          published_at?: string | null
-          slug: string
-          tags?: string[] | null
-          title: string
-          updated_at?: string
-        }
-        Update: {
-          author_avatar?: string | null
-          author_bio?: string | null
-          author_name?: string
-          author_title?: string | null
-          category?: string
-          content?: string
-          created_at?: string
-          excerpt?: string | null
-          featured_image?: string | null
-          id?: string
-          is_featured?: boolean | null
-          is_published?: boolean | null
-          published_at?: string | null
-          slug?: string
-          tags?: string[] | null
-          title?: string
           updated_at?: string
         }
         Relationships: []
@@ -216,42 +82,6 @@ export type Database = {
           id?: string
           is_featured?: boolean | null
           title?: string
-          updated_at?: string
-        }
-        Relationships: []
-      }
-      contact_submissions: {
-        Row: {
-          company: string | null
-          created_at: string
-          email: string
-          id: string
-          message: string
-          name: string
-          phone: string | null
-          service: string | null
-          updated_at: string
-        }
-        Insert: {
-          company?: string | null
-          created_at?: string
-          email: string
-          id?: string
-          message: string
-          name: string
-          phone?: string | null
-          service?: string | null
-          updated_at?: string
-        }
-        Update: {
-          company?: string | null
-          created_at?: string
-          email?: string
-          id?: string
-          message?: string
-          name?: string
-          phone?: string | null
-          service?: string | null
           updated_at?: string
         }
         Relationships: []
