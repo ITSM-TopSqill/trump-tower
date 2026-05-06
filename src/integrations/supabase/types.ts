@@ -141,6 +141,7 @@ export type Database = {
           email: string
           form_type: string | null
           id: string
+          interested_in: string[] | null
           message: string | null
           name: string
           phone: string
@@ -152,6 +153,7 @@ export type Database = {
           email: string
           form_type?: string | null
           id?: string
+          interested_in?: string[] | null
           message?: string | null
           name: string
           phone: string
@@ -163,6 +165,7 @@ export type Database = {
           email?: string
           form_type?: string | null
           id?: string
+          interested_in?: string[] | null
           message?: string | null
           name?: string
           phone?: string
