@@ -14,7 +14,231 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      amenity_images: {
+        Row: {
+          alt_text: string | null
+          amenity_name: string
+          created_at: string
+          display_order: number | null
+          id: string
+          image_path: string
+          is_primary: boolean | null
+          updated_at: string
+        }
+        Insert: {
+          alt_text?: string | null
+          amenity_name: string
+          created_at?: string
+          display_order?: number | null
+          id?: string
+          image_path: string
+          is_primary?: boolean | null
+          updated_at?: string
+        }
+        Update: {
+          alt_text?: string | null
+          amenity_name?: string
+          created_at?: string
+          display_order?: number | null
+          id?: string
+          image_path?: string
+          is_primary?: boolean | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      brochures: {
+        Row: {
+          created_at: string
+          description: string | null
+          display_order: number | null
+          download_count: number | null
+          file_path: string
+          file_size: number | null
+          id: string
+          is_featured: boolean | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          display_order?: number | null
+          download_count?: number | null
+          file_path: string
+          file_size?: number | null
+          id?: string
+          is_featured?: boolean | null
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          display_order?: number | null
+          download_count?: number | null
+          file_path?: string
+          file_size?: number | null
+          id?: string
+          is_featured?: boolean | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      gallery_items: {
+        Row: {
+          category: string
+          created_at: string
+          description: string | null
+          display_order: number | null
+          duration: string | null
+          file_path: string
+          file_size: number | null
+          file_type: string
+          id: string
+          is_featured: boolean | null
+          thumbnail_path: string | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          category?: string
+          created_at?: string
+          description?: string | null
+          display_order?: number | null
+          duration?: string | null
+          file_path: string
+          file_size?: number | null
+          file_type: string
+          id?: string
+          is_featured?: boolean | null
+          thumbnail_path?: string | null
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          category?: string
+          created_at?: string
+          description?: string | null
+          display_order?: number | null
+          duration?: string | null
+          file_path?: string
+          file_size?: number | null
+          file_type?: string
+          id?: string
+          is_featured?: boolean | null
+          thumbnail_path?: string | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      leads: {
+        Row: {
+          agreement: boolean | null
+          created_at: string
+          email: string
+          form_type: string | null
+          id: string
+          message: string | null
+          name: string
+          phone: string
+          updated_at: string
+        }
+        Insert: {
+          agreement?: boolean | null
+          created_at?: string
+          email: string
+          form_type?: string | null
+          id?: string
+          message?: string | null
+          name: string
+          phone: string
+          updated_at?: string
+        }
+        Update: {
+          agreement?: boolean | null
+          created_at?: string
+          email?: string
+          form_type?: string | null
+          id?: string
+          message?: string | null
+          name?: string
+          phone?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      pdfs: {
+        Row: {
+          created_at: string
+          description: string | null
+          display_order: number | null
+          download_count: number | null
+          file_path: string
+          file_size: number | null
+          id: string
+          is_featured: boolean | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          display_order?: number | null
+          download_count?: number | null
+          file_path: string
+          file_size?: number | null
+          id?: string
+          is_featured?: boolean | null
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          display_order?: number | null
+          download_count?: number | null
+          file_path?: string
+          file_size?: number | null
+          id?: string
+          is_featured?: boolean | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      site_settings: {
+        Row: {
+          company_name: string
+          created_at: string
+          id: string
+          receiver_email: string
+          receiver_phone: string
+          receiver_whatsapp: string
+          updated_at: string
+        }
+        Insert: {
+          company_name?: string
+          created_at?: string
+          id?: string
+          receiver_email?: string
+          receiver_phone?: string
+          receiver_whatsapp?: string
+          updated_at?: string
+        }
+        Update: {
+          company_name?: string
+          created_at?: string
+          id?: string
+          receiver_email?: string
+          receiver_phone?: string
+          receiver_whatsapp?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
