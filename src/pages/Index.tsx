@@ -29,9 +29,9 @@ const Index = () => {
       <section id="luxury-living-noida">
         <Hero />
       </section>
-      <section id="offer-banner">
+      {/*<section id="offer-banner">
         <OfferBanner />
-      </section>
+      </section>*/}
       <section id="godrej-majesty-overview">
         <ProjectOverview />
       </section>

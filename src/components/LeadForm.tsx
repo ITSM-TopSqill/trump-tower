@@ -42,7 +42,7 @@ const LeadForm = ({ variant = "hero", title, subtitle }: LeadFormProps) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const bhkOptions = ["2 BHK (Sold Out)", "3 BHK (Filling Fast)", "4 BHK (Available)", "4+ BHK (Available)"];
+  const bhkOptions = [/*"2 BHK (Sold Out)", "3 BHK (Filling Fast)",*/ "4 BHK (Available)", "5 BHK (Available)"];
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),

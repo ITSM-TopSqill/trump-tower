@@ -30,7 +30,7 @@ const FloorPlans = () => {
   const { toast } = useToast();
 
   const floorPlans = [
-    {
+    /*{
       id: "3bhk",
       title: "3 BHK",
       subtitle: "Premium Apartments",
@@ -73,7 +73,7 @@ const FloorPlans = () => {
         "Bathrooms": "3",
         "Balconies": "3"
       }
-    },
+    },*/
     {
       id: "4bhk",
       title: "4 BHK",
@@ -97,8 +97,8 @@ const FloorPlans = () => {
       }
     },
     {
-      id: "4bhk-study",
-      title: "4 BHK + Study",
+      id: "5bhk",
+      title: "5 BHK",
       subtitle: "Luxury Apartments",
       area:"2799 Sq. Ft.",
       price: " ₹3.96 Cr – ₹4.48 Cr",
@@ -200,14 +200,14 @@ const downloadPdf = async () => {
           </p>
         </div>
 
-        <Tabs defaultValue="3bhk" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 mb-8 md:mb-12 max-w-lg mx-auto h-auto p-1">
-            {floorPlans.map((plan) => (
-              <TabsTrigger key={plan.id} value={plan.id} className="text-sm">
-                {plan.title}
-              </TabsTrigger>
-            ))}
-          </TabsList>
+        <Tabs defaultValue="4bhk" className="w-full">
+          <TabsList className="grid w-full grid-cols-2 mb-8 md:mb-12 max-w-lg mx-auto h-auto p-1">
+  {floorPlans.map((plan) => (
+    <TabsTrigger key={plan.id} value={plan.id} className="text-sm">
+      {plan.title}
+    </TabsTrigger>
+  ))}
+</TabsList>
 
           {floorPlans.map((plan) => (
             <TabsContent key={plan.id} value={plan.id}>

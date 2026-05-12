@@ -5,7 +5,7 @@ import LeadForm from "./LeadForm";
 
 const PricingPayment = () => {
  const pricingPlans = [
-    {
+   /* {
       type: "3 BHK",
       area: "1993 Sq. Ft.",
       basePrice: "₹2.90 Cr – ₹3.20 Cr",
@@ -18,7 +18,7 @@ const PricingPayment = () => {
       basePrice: "₹3.29 Cr – ₹3.72 Cr",
       pricePerSqft: "₹3,800",
       highlights: ["Corner Units", "Extra Balcony", "Premium Finishes"]
-    },
+    },*/
     {
       type: "4 BHK",
       area: "2757 Sq. Ft.",
@@ -27,7 +27,7 @@ const PricingPayment = () => {
       highlights: ["Penthouse Style", "Panoramic Views", "Luxury Amenities"]
     },
     {
-      type: "4 BHK + Study",
+      type: "5 BHK",
       area: "2799 Sq. Ft.",
       basePrice: " ₹3.96 Cr – ₹4.48 Cr",
       pricePerSqft: "₹4,000",
@@ -91,40 +91,33 @@ const PricingPayment = () => {
         
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div className="lg:col-span-2">
-            {/* Pricing Section */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold text-foreground mb-8">Current Pricing</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-                {pricingPlans.map((plan, index) => (
-                  <div 
-                    key={plan.type}
-                    className="bg-card p-6 rounded-xl shadow-elegant hover:shadow-luxury transition-all duration-300 animate-fade-up"
-                    style={{ animationDelay: `${index * 0.1}s` }}
-                  >
-                    <div className="text-center mb-6">
-                      <h4 className="text-xl font-bold text-foreground mb-2">{plan.type}</h4>
-                      <p className="text-sm text-muted-foreground mb-4">{plan.area}</p>
-                      <div className="text-2xl font-bold text-primary mb-2">{plan.basePrice}</div>
-                      {/* <p className="text-sm text-muted-foreground">Starting from {plan.pricePerSqft}/sq.ft</p> */}
-                    </div>
-                    
-                    <div className="space-y-2 mb-6">
-                      {plan.highlights.map((highlight) => (
-                        <div key={highlight} className="flex items-center text-sm">
-                          <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                          <span className="text-muted-foreground">{highlight}</span>
-                        </div>
-                      ))}
-                    </div>
-                    
-                    {/* <Button variant="outline" className="w-full">
-                      <Calculator className="h-4 w-4 mr-2" />
-                      Calculate EMI
-                    </Button> */}
-                  </div>
-                ))}
-              </div>
+            {/* Pricing Section */}<div className="mb-12">
+  <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Current Pricing</h3>
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto">
+    {pricingPlans.map((plan, index) => (
+      <div 
+        key={plan.type}
+        className="bg-card p-6 rounded-xl shadow-elegant hover:shadow-luxury transition-all duration-300 animate-fade-up"
+        style={{ animationDelay: `${index * 0.1}s` }}
+      >
+        <div className="text-center mb-6">
+          <h4 className="text-xl font-bold text-foreground mb-2">{plan.type}</h4>
+          <p className="text-sm text-muted-foreground mb-4">{plan.area}</p>
+          <div className="text-2xl font-bold text-primary mb-2">{plan.basePrice}</div>
+        </div>
+        
+        <div className="space-y-2 mb-6">
+          {plan.highlights.map((highlight) => (
+            <div key={highlight} className="flex items-center text-sm">
+              <CheckCircle className="h-4 w-4 text-primary mr-2" />
+              <span className="text-muted-foreground">{highlight}</span>
             </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
             
             {/* Payment Plans */}
             <div>

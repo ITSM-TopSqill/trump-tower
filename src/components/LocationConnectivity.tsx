@@ -5,21 +5,21 @@ const LocationConnectivity = () => {
     {
       icon: Train,
       title: "Metro Station",
-      distance: "7 KM",
-      time: "15 mins drive",
+      distance: "650 m",
+      time: "7 min drive",
       color: "text-blue-500"
     },
     {
       icon: Plane,
       title: "IGI Airport",
-      distance: "45 KM",
-      time: "1 hour drive",
+      distance: "25 KM",
+      time: "43 min drive",
       color: "text-green-500"
     },
     {
       icon: GraduationCap,
       title: "Top Schools",
-      distance: "1-3 KM",
+      distance: "8 KM",
       time: "Walking distance",
       color: "text-purple-500"
     },
@@ -33,7 +33,7 @@ const LocationConnectivity = () => {
     {
       icon: Building,
       title: "Shopping Malls",
-      distance: "3-7 KM",
+      distance: "1-3 KM",
       time: "15 mins drive",
       color: "text-orange-500"
     },
@@ -56,7 +56,7 @@ const LocationConnectivity = () => {
                 Location & Connectivity
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Strategically located in Sector 12, Greater Noida West, Trump Tower offers
+                Strategically located in Sector-94, Noida, Trump Tower offers
                 unparalleled connectivity to Delhi NCR and all major landmarks. Experience the
                 convenience of urban living with easy access to everything you need.
               </p>
@@ -150,7 +150,7 @@ const LocationConnectivity = () => {
 
               <div className="text-center">
                 <p className="text-sm text-muted-foreground">
-                  Sector 12, Greater Noida West, Uttar Pradesh 201318
+                  Sector-94, Noida, Uttar Pradesh 201318
                 </p>
               </div>
             </div>

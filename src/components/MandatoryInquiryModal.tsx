@@ -41,7 +41,7 @@ interface MandatoryInquiryModalProps {
 const MandatoryInquiryModal = ({ isOpen, onClose, onSuccess }: MandatoryInquiryModalProps) => {
   const [isSubmitting, setIsSubmitting] = React.useState(false);
 
-  const bhkOptions = ["2 BHK (Sold Out)", "3 BHK (Filling Fast)", "4 BHK (Available)", "4+ BHK (Available)"];
+  const bhkOptions = [/*"2 BHK (Sold Out)", "3 BHK (Filling Fast)",*/ "4 BHK (Available)", "5 BHK (Available)"];
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),

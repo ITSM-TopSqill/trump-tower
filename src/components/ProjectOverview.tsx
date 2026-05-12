@@ -5,13 +5,13 @@ const ProjectOverview = () => {
   const highlights = [
     {
       icon: Building2,
-      title: "3 & 4 BHK",
+      title: "4 & 5 BHK",
       description: "Ultra Luxury Apartments"
     },
     {
       icon: MapPin,
       title: "Prime Location",
-      description: "Sector 12, Greater Noida West"
+      description: "Sector-94, Noida"
     },
     {
       icon: Trophy,
@@ -40,9 +40,9 @@ const ProjectOverview = () => {
                 Project Overview
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Trump Tower stands as a testament to luxury living in Greater Noida West.
-                Strategically located in Sector 12, this premium residential project offers
-                an unprecedented lifestyle experience with meticulously designed 3 & 4 BHK
+                Trump Tower stands as a testament to luxury living in Noida.
+                Strategically located in Sector-94, this premium residential project offers
+                an unprecedented lifestyle experience with meticulously designed 4 & 5 BHK
                 apartments that redefine modern living standards.
               </p>
 

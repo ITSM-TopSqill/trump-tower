@@ -25,8 +25,8 @@ const About = () => {
                 About Trump Tower
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Trump Tower represents the pinnacle of luxury living in Greater Noida West.
-                Strategically located in Sector 12, this premium residential project offers
+                Trump Tower represents the pinnacle of luxury living in Noida.
+                Strategically located in Sector-94, Noida, this premium residential project offers
                 world-class amenities, contemporary architecture, and unparalleled connectivity.
               </p>
             </div>

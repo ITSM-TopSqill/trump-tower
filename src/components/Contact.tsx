@@ -23,10 +23,10 @@ const formSchema = z.object({
 });
 
 const bhkOptions = [
-  { value: "2 BHK (Sold Out)", label: "2 BHK (Sold Out)" },
-  { value: "3 BHK (Filling Fast)", label: "3 BHK (Filling Fast)" },
+  //{ value: "2 BHK (Sold Out)", label: "2 BHK (Sold Out)" },
+  //{ value: "3 BHK (Filling Fast)", label: "3 BHK (Filling Fast)" },
   { value: "4 BHK (Available)" , label: "4 BHK (Available)" },
-  { value: "4+ BHK (Available)", label: "4+ BHK (Available)" },
+  { value: "5 BHK (Available)", label: "5 BHK (Available)" },
 
 ];
 
@@ -115,7 +115,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold">Project Location</h3>
-                <p className="opacity-80">Sector 12, Greater Noida West, UP</p>
+                <p className="opacity-80">Sector-94, Noida, UP</p>
               </div>
             </div>
 
