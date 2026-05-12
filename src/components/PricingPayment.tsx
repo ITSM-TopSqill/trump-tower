@@ -28,7 +28,7 @@ const PricingPayment = () => {
     },
     {
       type: "5 BHK",
-      area: /*"2799 Sq. Ft."*/ "Price: On-Request",
+      area: /*"2799 Sq. Ft."*/ "Area: On-Request",
       basePrice: /*" ₹3.96 Cr – ₹4.48 Cr"*/ "Price: On-Request",
       pricePerSqft: "₹4,000",
       highlights: ["Penthouse Style", "Panoramic Views", "Luxury Amenities"]
