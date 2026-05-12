@@ -225,14 +225,14 @@ const downloadPdf = async () => {
                         <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-6">
                           <div className="flex items-center">
                             <Square className="h-5 w-5 text-primary mr-2" />
-                            <span className="text-sm text-muted-foreground">
-                              {plan.area} sq.ft
+                            <span className="font-semibold text-primary">
+                              {/*{plan.area} sq.ft*/} Sizing- On Request
                             </span>
                           </div>
                           <div className="flex items-center">
                             <Home className="h-5 w-5 text-primary mr-2" />
                             <span className="font-semibold text-primary">
-                              {plan.price}
+                              {/*{plan.price}*/} Pricing- On Request
                             </span>
                           </div>
                         </div>
@@ -241,31 +241,31 @@ const downloadPdf = async () => {
 
                     <div className="space-y-6">
                       <div>
-                        <h4 className="text-lg font-semibold text-foreground mb-4">
-                          Key Features
-                        </h4>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                       {/* <h4 className="text-lg font-semibold text-foreground mb-4">
+                         Key Features
+                        </h4>*/}
+                        {/*<div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                           {plan.features.map((feature, index) => (
                             <div key={index} className="flex items-center">
                               <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                               <span className="text-sm text-muted-foreground">{feature}</span>
                             </div>
                           ))}
-                        </div>
+                        </div>*/}
                       </div>
 
                       <div>
-                        <h4 className="text-lg font-semibold text-foreground mb-4">
+                      {/* <h4 className="text-lg font-semibold text-foreground mb-4">
                           Specifications
-                        </h4>
-                        <div className="space-y-3">
+                        </h4>*/}
+                        {/*<div className="space-y-3">
                           {Object.entries(plan.specifications).map(([key, value]) => (
                             <div key={key} className="flex justify-between py-2 border-b border-border">
                               <span className="text-sm text-muted-foreground">{key}</span>
                               <span className="text-sm font-medium text-foreground">{value}</span>
                             </div>
                           ))}
-                        </div>
+                        </div>*/}
                       </div>
                     </div>
 
@@ -296,7 +296,7 @@ const downloadPdf = async () => {
                     <img
                       src={plan.image}
                       alt={`${plan.title} Floor Plan`}
-                      className="w-full h-auto rounded-lg cursor-pointer hover:shadow-luxury transition-shadow duration-300"
+                      className="w-full h-auto rounded-lg cursor-pointer blur-md hover:shadow-luxury transition-all duration-300"
                       onClick={() => setSelectedPlan(plan.image)}
                     />
                     <div className="absolute top-8 right-8">

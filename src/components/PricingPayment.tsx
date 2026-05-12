@@ -21,15 +21,15 @@ const PricingPayment = () => {
     },*/
     {
       type: "4 BHK",
-      area: "2757 Sq. Ft.",
-      basePrice: "₹3.56 Cr – ₹4.19 Cr",
-      pricePerSqft: "₹4,000",
+      area: "Area: On-Request",
+      basePrice: /*"₹3.56 Cr – ₹4.19 Cr"*/ "Price: On-Request",
+      pricePerSqft: /*"₹4,000"*/ "On-Request",
       highlights: ["Penthouse Style", "Panoramic Views", "Luxury Amenities"]
     },
     {
       type: "5 BHK",
-      area: "2799 Sq. Ft.",
-      basePrice: " ₹3.96 Cr – ₹4.48 Cr",
+      area: /*"2799 Sq. Ft."*/ "Price: On-Request",
+      basePrice: /*" ₹3.96 Cr – ₹4.48 Cr"*/ "Price: On-Request",
       pricePerSqft: "₹4,000",
       highlights: ["Penthouse Style", "Panoramic Views", "Luxury Amenities"]
     }

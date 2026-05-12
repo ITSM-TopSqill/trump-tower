@@ -38,7 +38,7 @@ export const InquiryModalProvider = ({ children }: InquiryModalProviderProps) =>
       if (!shouldShowModal) {
         setShouldShowModal(true);
       }
-    }, 6000);
+    }, 600000);
 
     return () => clearInterval(timer);
   }, [isSubmitted, shouldShowModal]);

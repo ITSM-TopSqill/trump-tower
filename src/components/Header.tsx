@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "@/assets/godrej-logo.png";
+import logo from "@/assets/logo.png";
 
 
 const Header = () => {
@@ -38,7 +38,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-14 h-14 flex items-center justify-center rounded-full bg-accent/10">
-              <img src={logo} alt="Trump Tower Logo" className="w-10 h-10 object-contain" />
+              <img src={logo} alt="Trump Tower Logo" className="w-14 h-14 object-contain rounded-full" />
             </div>
             <div>
               <h1 className="text-xl font-extrabold text-primary tracking-wide">
